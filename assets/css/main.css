@@ -1,0 +1,118 @@
+#CF7BetterUIForm {
+  visibility: hidden;
+}
+
+div.wpcf7 form .ajax-loader {
+  background-image: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: auto;
+  height: 64px;
+}
+
+.cf7-better-ui-loader {
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transform: scale(.8);
+  transform: scale(.8);
+  transition: .3s;
+}
+
+.cf7-better-ui-loader.lds-dual-ring {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+div.wpcf7 form span.wpcf7-not-valid-tip {
+  opacity: 0.7;
+}
+
+/* alerts */
+form div.wpcf7-response-output {
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  margin: 5px 0 0 0;
+}
+
+form div.wpcf7-validation-errors {
+  color: #856404;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+}
+
+form div.wpcf7-mail-sent-ok {
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+form div.wpcf7-mail-sent-ng,
+form div.div.wpcf7-aborted {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
+#CF7BetterUIForm {
+  margin-top: 30px;
+  max-width: 200px;
+}
+
+#CF7BetterUIForm .wp-picker-container {
+  margin: 0;
+}
+
+#CF7BetterUIForm .form-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#CF7BetterUIForm .input-group {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+#CF7BetterUIForm .input-group label {
+  padding-bottom: 5px;
+}
+
+#CF7BetterUIForm .loader-preview {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+#CF7BetterUIForm .loader-preview .cf7-better-ui-loader {
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  margin-left: 4px;
+}
+
+#CF7BetterUIForm .form__submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
